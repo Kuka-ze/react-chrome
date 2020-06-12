@@ -3,10 +3,12 @@ import React, { Component } from 'react'
 export default class Home extends Component {
     constructor(props) {
         super(props)
+        //使用React.StrictMode的话 方法在开发环境中constructor会执行两次
         console.log('111111', props)
         this.state = {
             date: new Date() || ''
         }
+        console.log('22222', this)
     }
 
     componentDidMount () {
