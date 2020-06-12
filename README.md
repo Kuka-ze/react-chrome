@@ -1,2 +1,0 @@
-# react-chrome
-management system
